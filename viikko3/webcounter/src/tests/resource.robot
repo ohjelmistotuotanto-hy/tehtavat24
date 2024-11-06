@@ -11,4 +11,4 @@ ${HEADLESS}  false
 *** Keywords ***
 Open And Configure Browser
     Set Selenium Speed  ${DELAY}
-    Open Browser  browser=${BROWSER}  options=${options}
+    Open Browser  browser=${BROWSER}
